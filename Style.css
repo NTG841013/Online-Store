@@ -1,0 +1,365 @@
+/*Getting rid of automatic margins and padding*/
+
+body {
+    background-image: url("images/background.jpg");
+}
+
+section {
+    font-family: arvo;
+    color: white;
+}
+
+div>span {
+    color: white;
+}
+
+.primary-navigation {
+    margin: 0 auto;
+    display: block;
+    padding: 120px 0 0 0;
+    text-align: center;
+    font-size: 16px;
+}
+
+ul li {
+    list-style: none;
+    margin: 0 auto;
+    border-left: 2px solid goldenrod;
+    ;
+    display: inline-block;
+    padding: 0 30px;
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+    font-family: arvo;
+}
+
+li a {
+    color: white;
+}
+
+li a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+li:hover {
+    cursor: pointer;
+    background-color: goldenrod;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#brand {
+    background-color: goldenrod;
+    border-radius: 5px;
+}
+
+
+/*----------End of Nav Styling-------------------------*/
+
+
+/*Add and style home images*/
+
+.ia-container {
+    width: 685px;
+    margin: 20px auto;
+    overflow: hidden;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.08);
+    border: 7px solid rgba(255, 255, 255, 0.6);
+}
+
+.ia-container figure {
+    position: absolute;
+    top: 0;
+    left: 50px;
+    /* width of visible piece */
+    width: 335px;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.6);
+    transition: all 0.3s ease-in-out;
+}
+
+
+/*First figure always positioned to the left*/
+
+.ia-container>figure {
+    position: relative;
+    left: 0 !important;
+}
+
+
+/*The image will have a width of 100% so that it fills the figure*/
+
+.ia-container img {
+    display: block;
+    width: 100%;
+}
+
+
+/*Radio buttons cover visible part of slide*/
+
+.ia-container input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    /* just cover visible part */
+    height: 100%;
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    opacity: 0;
+    z-index: 100;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+
+/*Input to dissapear whn selected or clicked*/
+
+.ia-container input:checked {
+    width: 5px;
+    left: auto;
+    right: 0px;
+}
+
+
+/*Image shuffle effect when checked*/
+
+.ia-container input:checked~figure {
+    left: 335px;
+    transition: all 0.9s ease-in-out;
+}
+
+
+/*Image caption*/
+
+.ia-container figcaption {
+    width: 100%;
+    height: 100%;
+    background: rgba(87, 73, 81, 0.1);
+    position: absolute;
+    top: 0px;
+    transition: all 0.2s linear;
+}
+
+.ia-container figcaption span {
+    position: absolute;
+    top: 40%;
+    margin-top: -30px;
+    right: 20px;
+    left: 20px;
+    overflow: hidden;
+    text-align: center;
+    background: rgba(87, 73, 81, 0.3);
+    line-height: 20px;
+    font-size: 18px;
+    opacity: 0;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 700;
+    padding: 20px;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+
+/*Remove overlay when slide is selected*/
+
+.ia-container input:checked+figcaption,
+.ia-container input:checked:hover+figcaption {
+    background: rgba(87, 73, 81, 0);
+}
+
+
+/*The span will fade in and move from the top*/
+
+.ia-container input:checked+figcaption span {
+    transition: all 0.4s ease-in-out 0.5s;
+    opacity: 1;
+    top: 50%;
+}
+
+
+/*Delay on the last slide*/
+
+.ia-container #ia-selector-last:checked+figcaption span {
+    transition-delay: 0.3s;
+}
+
+.ia-container input:hover+figcaption {
+    background: rgba(87, 73, 81, 0.03);
+}
+
+.ia-container input:checked~figure input {
+    z-index: 1;
+}
+
+
+/*---------------End of Home styling---------------------*/
+
+
+/*---------------Start of Artists styling------------------*/
+
+thead {
+    background-color: goldenrod;
+    font-family: arvo;
+    font-weight: lighter;
+    border-radius: 5px;
+}
+
+tr>th,
+td,
+td>p {
+    color: white;
+}
+
+tbody>tr:hover {
+    background-color: black;
+}
+
+td>p a {
+    color: rgb(97, 231, 63);
+}
+
+table>img {
+    transition: transform .2s;
+    /* Animation */
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+img:hover {
+    transform: scale(1.5);
+}
+
+
+/*---------------End of Artist Styling----------------*/
+
+
+/*----------------Form Styling-------------------------*/
+
+.order-form .container {
+    color: #000000;
+    padding: 20px;
+    box-shadow: 0 0 10px 0 white;
+    background-color: #fff;
+}
+
+.order-form-label {
+    margin: 8px 0 0 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.order-form-input {
+    width: 100%;
+    padding: 8px 8px;
+    border-width: 1px !important;
+    border-style: solid !important;
+    border-radius: 3px !important;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.2em;
+    background-color: transparent;
+    border-color: #030303;
+}
+
+.btn-submit {
+    background-color: goldenrod;
+}
+
+.btn-submit:hover {
+    background-color: #020202 !important;
+}
+
+
+/*----------------End of form styling------------------*/
+
+
+/*--------------------Articles styling------------------*/
+
+.article-container {
+    color: #fff;
+    display: flexbox;
+    border: #fff;
+}
+
+.article-container>h1 {
+    text-align: center;
+}
+
+
+/*----------------------Cart Styling--------------------------------*/
+
+.btn-primary:hover {
+    background-color: #2D9CDB;
+}
+
+.btn-primary {
+    background-color: goldenrod;
+}
+
+.cart-header {
+    font-weight: bold;
+    font-size: 1.25em;
+    color: white;
+}
+
+.cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid goldenrod;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cart-row {
+    display: flex;
+}
+
+.cart-item {
+    width: 45%;
+}
+
+.cart-price {
+    width: 20%;
+    font-size: 1.2em;
+    color: white;
+}
+
+.cart-quantity {
+    width: 35%;
+}
+
+.cart-item-title {
+    color: white;
+    margin-left: .5em;
+    font-size: 1.2em;
+}
+
+.cart-item-image {
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.btn-danger {
+    color: white;
+    background-color: goldenrod;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-danger:hover {
+    background-color: #2D9CDB;
+}

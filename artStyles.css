@@ -1,0 +1,73 @@
+body {
+    background-image: url('images/background.jpg');
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+.primary-navigation {
+    margin: 0 auto;
+    display: block;
+    padding: 120px 0 0 0;
+    text-align: center;
+    font-size: 16px;
+}
+
+ul li {
+    list-style: none;
+    margin: 0 auto;
+    border-left: 2px solid green;
+    ;
+    display: inline-block;
+    padding: 0 30px;
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+    font-family: arvo;
+}
+
+li a {
+    color: white;
+}
+
+li a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+li:hover {
+    cursor: pointer;
+    background-color: goldenrod;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#brand {
+    background-color: goldenrod;
+    border-radius: 5px;
+}
+
+tr>td>#button {
+    background-color: goldenrod;
+}
+
+
+/*----------End of Nav Styling-------------------------*/
+
+
+/*Styling the images */
+
+img {
+    transition: transform .2s;
+    /* Animation */
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+img:hover {
+    transform: scale(1.5);
+}
