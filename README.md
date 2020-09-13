@@ -55,5 +55,11 @@ Start on the home page:
 <p align="left">
   <img src= "https://github.com/NTG841013/Online-Store/blob/master/images/image5.JPG" width ="500">
  </p>
+ 
+ 
+# Authors and Acknowledgements
+Sips Sithole
+
+
 
 
