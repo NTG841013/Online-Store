@@ -36,5 +36,11 @@ Start on the home page:
 <p align="left">
   <img src= "https://github.com/NTG841013/Online-Store/blob/master/images/image2.JPG" width ="400" img="hover">
  </p>
+  Click on Add to cart to add product to shopping cart
+  Add value of products
+  Once completed click in purchase
+<p align="left">
+  <img src= "https://github.com/NTG841013/Online-Store/blob/master/images/image3.JPG" width ="400" img="hover">
+ </p
 
 
