@@ -30,17 +30,30 @@ git clone https://github.com/your_username_/Project-Name.git
 
 Start on the home page: 
 <p align="left">
-  <img src= "https://github.com/NTG841013/Online-Store/blob/master/images/image1.JPG" width ="400" img="hover">
+  <img src= "https://github.com/NTG841013/Online-Store/blob/master/images/image1.JPG" width ="500">
  </p>
  Click on Product tab and click ok on pop up box: 
 <p align="left">
-  <img src= "https://github.com/NTG841013/Online-Store/blob/master/images/image2.JPG" width ="400" img="hover">
+  <img src= "https://github.com/NTG841013/Online-Store/blob/master/images/image2.JPG" width ="500">
  </p>
-  Click on Add to cart to add product to shopping cart
-  Add value of products
+  Click on Add to cart to add product to shopping cart;
+  Add value of products;
   Once completed click in purchase
 <p align="left">
-  <img src= "https://github.com/NTG841013/Online-Store/blob/master/images/image3.JPG" width ="400" img="hover">
- </p
+  <img src= "https://github.com/NTG841013/Online-Store/blob/master/images/image3.JPG" width ="500">
+ </p>
+  Add customer details for delivery;
+  select the discount tab if you qualify; 
+  so this can be substracted from total; 
+  select delivery method;
+  Then get click get total amount to get grand total;
+  Once completed click confirm order to get your reference number for your purchase;
+<p align="left">
+  <img src= "https://github.com/NTG841013/Online-Store/blob/master/images/image4.JPG" width ="500">
+ </p>
+  Click on Gallery tab for more pics around add or event campaigns: 
+<p align="left">
+  <img src= "https://github.com/NTG841013/Online-Store/blob/master/images/image5.JPG" width ="500">
+ </p>
 
 
