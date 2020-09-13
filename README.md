@@ -18,4 +18,9 @@ Online store using html, js and css, with shopping cart that calculates total of
 5. Jquery
 
 # Installation
+1. Download any HTML Editor of your choice
+2. Select the right Bootstrap version from Bootstrap site
+3. Clone the repo
+git clone https://github.com/your_username_/Project-Name.git
+4. Add files into your repo
 
