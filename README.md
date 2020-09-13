@@ -29,10 +29,12 @@ git clone https://github.com/your_username_/Project-Name.git
 # Usage
 
 Start on the home page: 
-<p align="center">
-  <img src= "https://github.com/NTG841013/Online-Store/blob/master/images/image1.JPG" width ="400" img:hover{
-    transform: scale(1.5);
-} >
+<p align="left">
+  <img src= "https://github.com/NTG841013/Online-Store/blob/master/images/image1.JPG" width ="400" img="hover">
+ </p>
+ Click on Product tab and click ok on pop up box: 
+<p align="left">
+  <img src= "https://github.com/NTG841013/Online-Store/blob/master/images/image2.JPG" width ="400" img="hover">
  </p>
 
 
