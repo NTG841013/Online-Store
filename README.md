@@ -30,7 +30,9 @@ git clone https://github.com/your_username_/Project-Name.git
 
 Start on the home page: 
 <p align="center">
-  <img src= "https://github.com/NTG841013/Online-Store/blob/master/images/image1.JPG" width ="400" title"hover" >
+  <img src= "https://github.com/NTG841013/Online-Store/blob/master/images/image1.JPG" width ="400" img:hover{
+    transform: scale(1.5);
+} >
  </p>
 
 
