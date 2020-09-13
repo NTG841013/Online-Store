@@ -25,3 +25,7 @@ Online store using html, js and css, with shopping cart that calculates total of
 git clone https://github.com/your_username_/Project-Name.git
 4. Add files into your repo
 
+
+# Usage
+
+
