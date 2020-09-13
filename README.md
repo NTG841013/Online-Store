@@ -28,6 +28,9 @@ git clone https://github.com/your_username_/Project-Name.git
 
 # Usage
 
-Start on the home page: https://github.com/NTG841013/Online-Store/blob/master/images/image1.JPG
+Start on the home page: 
+<p align="center">
+  <img src= "https://github.com/NTG841013/Online-Store/blob/master/images/image1.JPG" width ="200" >
+ </p>
 
 
